@@ -20,8 +20,8 @@ header{
 
 .nome-logo{
     text-decoration: none;
-    font-family: 'Indie Flower', cursive;
-    font-size: 60px;
+    font-family: 'Sedgwick Ave', cursive;
+    font-size: 50px;
     color: #F84AA7;
 }
 
@@ -32,5 +32,27 @@ header{
     color: #F84AA7;
 }
 
+.nome{
+    height: calc(100vh - 50px);
+    background: linear-gradient(rgba(0, 0, 0, 0.164), rgba(0, 0, 0, 0.13)), url(../img/bg-inicial.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;   
+}
 
+.section-h1{
+    display: flex;
+    justify-content: space-between;
+    color: #F84AA7;
+    align-items: center;
+    justify-content: center;
+    margin:0;
+    font-size: 100px;
+}
+
+.comeco{
+
+}
 
