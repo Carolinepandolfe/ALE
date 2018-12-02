@@ -1,0 +1,36 @@
+body{
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #E8B9AB;
+}
+.links-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.nome-logo{
+    text-decoration: none;
+    font-family: 'Indie Flower', cursive;
+    font-size: 60px;
+    color: #F84AA7;
+}
+
+.link{
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 20px;
+    color: #F84AA7;
+}
+
+
+
