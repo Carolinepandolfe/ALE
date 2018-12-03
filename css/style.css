@@ -6,6 +6,7 @@ header{
     display: flex;
     justify-content: space-between;
     background-color: #E8B9AB;
+    align-items: center;
 }
 .links-nav{
     display: flex;
@@ -53,6 +54,26 @@ header{
 }
 
 .comeco{
+    background-color: aqua;
+    height:500px;
+    margin:0 auto;
+}
 
+.senai{
+    background-color: violet;
+    height:500px;
+    margin:0 auto;
+}
+
+.faculdade{
+    background-color: rgb(46, 112, 167);
+    height:500px;
+    margin:0 auto;
+}
+
+.eh{
+    background-color: rgb(28, 212, 151);
+    height:500px;
+    margin:0 auto;
 }
 
