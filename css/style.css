@@ -5,13 +5,13 @@ body{
 header{
     display: flex;
     justify-content: space-between;
-    background-color: #E8B9AB;
     align-items: center;
 }
 .links-nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .container{
@@ -21,7 +21,8 @@ header{
 
 .nome-logo{
     text-decoration: none;
-    font-family: 'Sedgwick Ave', cursive;
+    font-family: 'League Script', cursive;
+    font-weight: bold;
     font-size: 50px;
     color: #F84AA7;
 }
@@ -31,6 +32,7 @@ header{
     margin-left: 10px;
     font-size: 20px;
     color: #F84AA7;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .nome{
@@ -41,6 +43,7 @@ header{
     align-items: center;
     justify-content: center;
     flex-direction: column;   
+    font-family: 'Montserrat', sans-serif;
 }
 
 .section-h1{
@@ -57,23 +60,27 @@ header{
     background-color: aqua;
     height:500px;
     margin:0 auto;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .senai{
     background-color: violet;
     height:500px;
     margin:0 auto;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .faculdade{
     background-color: rgb(46, 112, 167);
     height:500px;
     margin:0 auto;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .eh{
     background-color: rgb(28, 212, 151);
     height:500px;
     margin:0 auto;
+    font-family: 'Montserrat', sans-serif;
 }
 
