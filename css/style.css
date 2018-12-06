@@ -6,17 +6,24 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #FFF;
+    position: fixed;
+    top: 0;
+    z-index: 1;    
+    min-width: 100vw;    
 }
 .links-nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
 }
 
 .container{
     width: 80%;
     margin: 0 auto;
+}
+.logo-ale{
+    width: 60px;
 }
 
 .nome-logo{
