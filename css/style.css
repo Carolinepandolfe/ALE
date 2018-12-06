@@ -11,7 +11,9 @@ header{
     top: 0;
     z-index: 1;    
     min-width: 100vw;    
+    box-shadow: 0 8px 8px 1px rgba(0, 0, 0, 0.219);
 }
+
 .links-nav{
     display: flex;
     justify-content: space-between;
@@ -89,5 +91,78 @@ header{
     height:500px;
     margin:0 auto;
     font-family: 'Montserrat', sans-serif;
+}
+
+
+@media screen and (max-width: 750px){
+    nav{
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        position: absolute;
+        top: 50px;
+        height: 70vh;
+        width: 80vw;
+        background-color: whitesmoke;
+        right: 0;
+        transition: 0.8s;
+        transform: translateX(100%);
+        z-index: 10;
+    }
+
+    nav a{
+        width: 50%;
+        text-align: center;
+        margin: 0 2vw;
+        padding: 10px 14px;
+        box-sizing: border-box;
+        color: black;
+        border-bottom: 0.5px solid black;
+    }
+
+    nav a:hover{
+        color: black;
+    }
+
+    .button:hover{
+        background-color: #00AAF4;
+    }
+
+    .navClick{
+        transform: translateX(0);
+
+    }
+    .burguer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 50px;
+        width: 50px;
+        margin-right: 2vw;
+    }
+
+    .barra{
+        height: 1px;
+        width: 25px;
+        background-color: black;
+        transition: .5s;
+    }
+
+    .barra:nth-child(2){
+        margin: 7px;
+    }
+
+    .barrinha{
+        position: absolute;
+        transform: rotate(135deg);
+    }
+
+    .barrinha:nth-child(2){
+        margin: 0;
+        transform: rotate(-135deg);
+    }
+
 }
 
