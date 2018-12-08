@@ -67,9 +67,23 @@ header{
 
 .comeco{
     background-color: aqua;
-    height:500px;
+    height:800px;
     margin:0 auto;
     font-family: 'Montserrat', sans-serif;
+}
+
+.div-comeco{
+
+}
+
+.img1{
+    width: 50%;
+}
+.img2{
+    width: 20%;
+}
+.img3{
+    width: 20%;
 }
 
 .senai{
