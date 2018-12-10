@@ -223,5 +223,101 @@ header{
         transform: rotate(-135deg);
     }
 
-}
+        
+    .comeco{
+        background-color: rgb(28, 212, 151);
+        height: 55vw;
+        margin:0 auto;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .div-comeco{
+        display: flex;
+        flex-direction: row;
+        margin-top: 5%;
+    }
+
+    .img-crianca{
+        width: 30vw;
+    }
+
+    .p-direito{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        color: white;
+        padding-left: 10vw;
+        padding-right: 10vw;
+        margin-top: 10%;
+        flex-direction: row;
+        
+    }
+
+
+    .senai{
+        background-color: violet;
+        height: 70vw;
+        margin:0 auto;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .div-senai{
+        display: flex;
+        flex-direction: row-reverse;
+        margin-top: 5%;
+    }
+
+    .img-triste{
+        width: 30vw;
+        margin-top: 30%;
+
+    }
+
+    .p-esquerdo{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        color: white;
+        padding-left: 10vw;
+        padding-right: 10vw;
+        margin-top: 10%;
+        flex-direction: row;
+        
+    }
+
+    .faculdade{
+        background-color: rgb(46, 112, 167);
+        height: 80vw;
+        margin:0 auto;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .div-faculdade{
+        display: flex;
+        flex-direction: row;
+        margin-top: 5%;
+    }
+
+    .img-peb{
+        width: 30vw;
+        margin-top: 40%;
+    }
+
+    .eh{
+        background-color: aqua;
+        height: 70vw;
+        margin:0 auto;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .div-amor{
+        display: flex;
+        flex-direction: row-reverse;
+        margin-top: 5%;
+    }
+
+    .img-amor{
+        width: 30vw;
+    }
+
+
+    }
 
