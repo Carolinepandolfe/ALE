@@ -1,5 +1,6 @@
 body{
     margin: 0 auto;
+    
 }
 
 header{
@@ -36,6 +37,7 @@ header{
     font-size: 20px;
     color: #F84AA7;
     font-family: 'Montserrat', sans-serif;
+    
 }
 
 .nome{
@@ -64,6 +66,16 @@ header{
     height: 55vw;
     margin:0 auto;
     font-family: 'Montserrat', sans-serif;
+}
+
+.h1-section2{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    margin:0;
+    font-size: 80px;
 }
 
 .div-comeco{
@@ -95,6 +107,16 @@ header{
     font-family: 'Montserrat', sans-serif;
 }
 
+.h1-section3{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    margin:0;
+    font-size: 80px;
+}
+
 .div-senai{
     display: flex;
     flex-direction: row-reverse;
@@ -123,6 +145,16 @@ header{
     font-family: 'Montserrat', sans-serif;
 }
 
+.h1-section4{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    margin:0;
+    font-size: 80px;
+}
+
 .div-faculdade{
     display: flex;
     flex-direction: row;
@@ -138,6 +170,26 @@ header{
     height:55vw;
     margin:0 auto;
     font-family: 'Montserrat', sans-serif;
+}
+
+.h1-section5{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    margin:0;
+    font-size: 80px;
+}
+
+.h1-section{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    margin:0;
+    font-size: 80px;
 }
 
 .div-amor{
@@ -226,9 +278,20 @@ header{
         
     .comeco{
         background-color: rgb(28, 212, 151);
-        height: 55vw;
+        height: 60vw;
         margin:0 auto;
         font-family: 'Montserrat', sans-serif;
+    }
+
+    .h1-section2{
+        display: flex;
+        justify-content: space-between;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        margin:0;
+        padding-top: 5vw;
+        font-size: 50px;
     }
 
     .div-comeco{
@@ -255,9 +318,20 @@ header{
 
     .senai{
         background-color: violet;
-        height: 70vw;
+        height: 80vw;
         margin:0 auto;
         font-family: 'Montserrat', sans-serif;
+    }
+
+    .h1-section3{
+        display: flex;
+        justify-content: space-between;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        padding-top: 5vw;
+        margin:0;
+        font-size: 50px;
     }
 
     .div-senai{
@@ -283,29 +357,52 @@ header{
         
     }
 
+    
     .faculdade{
         background-color: rgb(46, 112, 167);
         height: 80vw;
         margin:0 auto;
         font-family: 'Montserrat', sans-serif;
     }
-
+    
+    .h1-section4{
+        display: flex;
+        justify-content: space-between;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        padding-top: 5vw;
+        margin:0;
+        font-size: 50px;
+    }
+    
     .div-faculdade{
         display: flex;
         flex-direction: row;
         margin-top: 5%;
     }
-
+    
     .img-peb{
         width: 30vw;
-        margin-top: 40%;
+        margin-top: 35%;
     }
-
+    
     .eh{
         background-color: aqua;
         height: 70vw;
         margin:0 auto;
         font-family: 'Montserrat', sans-serif;
+    }
+    
+    .h1-section5{
+        display: flex;
+        justify-content: space-between;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        padding-top: 5vw;
+        margin:0;
+        font-size: 50px;
     }
 
     .div-amor{
@@ -317,7 +414,6 @@ header{
     .img-amor{
         width: 30vw;
     }
-
 
     }
 
