@@ -61,6 +61,11 @@ header{
     font-size: 80px;
 }
 
+
+.padding-h1{
+    padding-top: 8%;
+}
+
 .comeco{
     background-color: rgb(28, 212, 151);
     height: 55vw;
@@ -279,6 +284,7 @@ footer{
         transform: rotate(-135deg);
     }
 
+    
         
     .comeco{
         background-color: rgb(28, 212, 151);
@@ -296,6 +302,11 @@ footer{
         margin:0;
         padding-top: 5vw;
         font-size: 50px;
+    }
+
+    
+    .padding-h1{
+        padding-top: 10%;
     }
 
     .div-comeco{
@@ -425,7 +436,244 @@ footer{
         font-family: 'Montserrat', sans-serif;
         background-color: #A55ABF;
         color: white; 
+        font-size: 15px;
     }
 
     }
+
+    
+@media screen and (max-width: 400px){
+    nav{
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        position: absolute;
+        top: 50px;
+        height: 70vh;
+        width: 80vw;
+        background-color: white;
+        right: 0;
+        transition: 0.8s;
+        transform: translateX(100%);
+        z-index: 10;
+    }
+
+    nav a{
+        width: 50%;
+        text-align: center;
+        margin: 0 2vw;
+        padding: 10px 14px;
+        box-sizing: border-box;
+        color: black;
+        border-bottom: 0.5px solid black;
+    }
+
+    nav a:hover{
+        color: black;
+    }
+
+    .button:hover{
+        background-color: #00AAF4;
+    }
+
+    .navClick{
+        transform: translateX(0);
+
+    }
+    .burguer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 50px;
+        width: 50px;
+        margin-right: 2vw;
+    }
+
+    .barra{
+        height: 1px;
+        width: 25px;
+        background-color: black;
+        transition: .5s;
+    }
+
+    .barra:nth-child(2){
+        margin: 7px;
+    }
+
+    .barrinha{
+        position: absolute;
+        transform: rotate(135deg);
+    }
+
+    .barrinha:nth-child(2){
+        margin: 0;
+        transform: rotate(-135deg);
+    }
+
+    .section-h1{
+        display: flex;
+        justify-content: space-between;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        margin:0;
+        font-size: 40px;
+    }
+
+    .padding-h1{
+        padding-top: 20%;
+    }
+        
+    .comeco{
+        background-color: rgb(28, 212, 151);
+        height: 60vw;
+        margin:0 auto;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .h1-section2{
+        display: flex;
+        justify-content: space-between;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        margin:0;
+        padding-top: 5vw;
+        font-size: 20px;
+    }
+
+    .div-comeco{
+        display: flex;
+        flex-direction: row;
+        margin-top: 5%;
+    }
+
+    .img-crianca{
+        width: 30vw;
+    }
+
+    .p-direito{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 8px;
+        color: white;
+        padding-left: 10vw;
+        padding-right: 5vw;
+        margin-top: 10%;
+        flex-direction: row;
+        
+    }
+
+
+    .senai{
+        background-color: violet;
+        height: 80vw;
+        margin:0 auto;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .h1-section3{
+        display: flex;
+        justify-content: space-between;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        padding-top: 5vw;
+        margin:0;
+        font-size: 20px;
+    }
+
+    .div-senai{
+        display: flex;
+        flex-direction: row-reverse;
+        margin-top: 5%;
+    }
+
+    .img-triste{
+        width: 30vw;
+        margin-top: 30%;
+
+    }
+
+    .p-esquerdo{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 8px;
+        color: white;
+        padding-left: 10vw;
+        padding-right: 5vw;
+        margin-top: 10%;
+        flex-direction: row;
+        
+    }
+
+    
+    .faculdade{
+        background-color: rgb(46, 112, 167);
+        height: 80vw;
+        margin:0 auto;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .h1-section4{
+        display: flex;
+        justify-content: space-between;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        padding-top: 5vw;
+        margin:0;
+        font-size: 20px;
+    }
+    
+    .div-faculdade{
+        display: flex;
+        flex-direction: row;
+        margin-top: 5%;
+    }
+    
+    .img-peb{
+        width: 30vw;
+        margin-top: 35%;
+    }
+    
+    .eh{
+        background-color: #FEB274;
+        height: 70vw;
+        margin:0 auto;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .h1-section5{
+        display: flex;
+        justify-content: space-between;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        padding-top: 5vw;
+        margin:0;
+        font-size: 20px;
+    }
+
+    .div-amor{
+        display: flex;
+        flex-direction: row-reverse;
+        margin-top: 5%;
+    }
+
+    .img-amor{
+        width: 30vw;
+    }
+
+    footer{
+        display: flex;
+        justify-content: center;
+        font-family: 'Montserrat', sans-serif;
+        background-color: #A55ABF;
+        color: white; 
+        font-size: 8px;
+    }
+
+    }
+    
 
