@@ -75,6 +75,7 @@ header{
     align-items: center;
     justify-content: center;
     margin:0;
+    padding-top: 3vw;
     font-size: 80px;
 }
 
@@ -94,7 +95,7 @@ header{
     color: white;
     padding-left: 10vw;
     padding-right: 10vw;
-    margin-top: 20%;
+    margin-top: 10%;
     flex-direction: row;
     
 }
@@ -114,6 +115,7 @@ header{
     align-items: center;
     justify-content: center;
     margin:0;
+    padding-top: 3vw;
     font-size: 80px;
 }
 
@@ -125,6 +127,7 @@ header{
 
 .img-triste{
     width: 30vw;
+    margin-top: 5%;
 }
 
 .p-esquerdo{
@@ -133,7 +136,7 @@ header{
     color: white;
     padding-left: 10vw;
     padding-right: 10vw;
-    margin-top: 20%;
+    margin-top: 10%;
     flex-direction: row;
     
 }
@@ -152,6 +155,7 @@ header{
     align-items: center;
     justify-content: center;
     margin:0;
+    padding-top: 3vw;
     font-size: 80px;
 }
 
@@ -163,10 +167,11 @@ header{
 
 .img-peb{
     width: 30vw;
+    margin-top: 5%;
 }
 
 .eh{
-    background-color: aqua;
+    background-color: #FEB274;
     height:55vw;
     margin:0 auto;
     font-family: 'Montserrat', sans-serif;
@@ -179,18 +184,10 @@ header{
     align-items: center;
     justify-content: center;
     margin:0;
+    padding-top: 3vw;
     font-size: 80px;
 }
 
-.h1-section{
-    display: flex;
-    justify-content: space-between;
-    color: white;
-    align-items: center;
-    justify-content: center;
-    margin:0;
-    font-size: 80px;
-}
 
 .div-amor{
     display: flex;
@@ -202,6 +199,13 @@ header{
     width: 30vw;
 }
 
+footer{
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #A55ABF;
+    color: white; 
+}
 
 
 
@@ -388,7 +392,7 @@ header{
     }
     
     .eh{
-        background-color: aqua;
+        background-color: #FEB274;
         height: 70vw;
         margin:0 auto;
         font-family: 'Montserrat', sans-serif;
@@ -413,6 +417,14 @@ header{
 
     .img-amor{
         width: 30vw;
+    }
+
+    footer{
+        display: flex;
+        justify-content: center;
+        font-family: 'Montserrat', sans-serif;
+        background-color: #A55ABF;
+        color: white; 
     }
 
     }
