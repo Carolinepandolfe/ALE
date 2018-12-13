@@ -67,7 +67,7 @@ header{
 }
 
 .comeco{
-    background-color: rgb(28, 212, 151);
+    background-color: rgb(26, 165, 119);
     height: 55vw;
     margin:0 auto;
     font-family: 'Montserrat', sans-serif;
@@ -107,7 +107,7 @@ header{
 
 
 .senai{
-    background-color: violet;
+    background-color: rgb(184, 23, 98);
     height: 55vw;
     margin:0 auto;
     font-family: 'Montserrat', sans-serif;
@@ -213,6 +213,12 @@ footer{
 }
 
 
+.panel {
+    height: 100%;
+    width: 100%;
+}
+
+
 
 @media screen and (max-width: 750px){
     nav{
@@ -287,7 +293,7 @@ footer{
     
         
     .comeco{
-        background-color: rgb(28, 212, 151);
+        background-color: rgb(26, 165, 119);
         height: 60vw;
         margin:0 auto;
         font-family: 'Montserrat', sans-serif;
@@ -332,7 +338,7 @@ footer{
 
 
     .senai{
-        background-color: violet;
+        background-color: rgb(184, 23, 98);
         height: 80vw;
         margin:0 auto;
         font-family: 'Montserrat', sans-serif;
@@ -442,7 +448,7 @@ footer{
     }
 
     
-@media screen and (max-width: 400px){
+@media screen and (max-width: 480px){
     nav{
         flex-direction: column;
         display: flex;
@@ -527,7 +533,7 @@ footer{
     }
         
     .comeco{
-        background-color: rgb(28, 212, 151);
+        background-color: rgb(26, 165, 119);
         height: 60vw;
         margin:0 auto;
         font-family: 'Montserrat', sans-serif;
@@ -567,7 +573,7 @@ footer{
 
 
     .senai{
-        background-color: violet;
+        background-color: rgb(184, 23, 98);
         height: 80vw;
         margin:0 auto;
         font-family: 'Montserrat', sans-serif;
@@ -676,4 +682,3 @@ footer{
 
     }
     
-
