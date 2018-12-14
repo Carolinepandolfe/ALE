@@ -11,3 +11,12 @@ menu.onclick = () => {
     nav.classList.toggle('navClick');
 }
 
+window.onscroll = () => {
+    const banner = document.querySelector('.nome');
+
+    if ( this.scrollY >= 400 ) {
+        banner.style.opacity = 0
+    } else {
+        banner.style.opacity = 1
+    }
+};

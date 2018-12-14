@@ -1,6 +1,6 @@
 body{
     margin: 0 auto;
-    
+    background: rgb(26, 165, 119);
 }
 
 header{
@@ -42,14 +42,20 @@ header{
 }
 
 .nome{
-    height: calc(100vh - 50px);
+
+    height: 100vh;
+    width: 100%;
     background: linear-gradient(rgba(0, 0, 0, 0.164), rgba(0, 0, 0, 0.13)), url(../img/bg-inicial-modificada.jpg);
     background-size: cover;
+    background-attachment: fixed;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;   
     font-family: 'Montserrat', sans-serif;
+    opacity: 1;
+    transition: opacity 1.5s ease-out;
+
 }
 
 .section-h1{
@@ -467,11 +473,6 @@ footer{
         margin-bottom: 8px;
     }
 
-       
-    .container{
-        width: 70%;
-        margin: 0 auto;
-    }
 
     
     nav{
