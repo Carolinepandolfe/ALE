@@ -467,6 +467,12 @@ footer{
         margin-bottom: 8px;
     }
 
+       
+    .container{
+        width: 70%;
+        margin: 0 auto;
+    }
+
     
     nav{
         flex-direction: column;
