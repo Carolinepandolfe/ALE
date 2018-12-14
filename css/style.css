@@ -25,6 +25,7 @@ header{
     width: 80%;
     margin: 0 auto;
 }
+
 .logo-ale{
     width: 60px;
     margin-top: 8px;
@@ -213,14 +214,26 @@ footer{
 }
 
 
-.panel {
-    height: 100%;
-    width: 100%;
-}
-
-
 
 @media screen and (max-width: 750px){
+
+        
+    .logo-ale{
+        width: 50px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+
+        
+    .link{
+        text-decoration: none;
+        margin-left: 10px;
+        font-size: 10px;
+        color: #F84AA7;
+        font-family: 'Montserrat', sans-serif;
+        
+    }
+
     nav{
         flex-direction: column;
         display: flex;
@@ -228,8 +241,8 @@ footer{
         justify-content: space-evenly;
         position: absolute;
         top: 50px;
-        height: 70vh;
-        width: 80vw;
+        height: 40vh;
+        width: 40vw;
         background-color: white;
         right: 0;
         transition: 0.8s;
@@ -243,8 +256,6 @@ footer{
         margin: 0 2vw;
         padding: 10px 14px;
         box-sizing: border-box;
-        color: black;
-        border-bottom: 0.5px solid black;
     }
 
     nav a:hover{
@@ -449,6 +460,14 @@ footer{
 
     
 @media screen and (max-width: 480px){
+        
+    .logo-ale{
+        width: 30px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+
+    
     nav{
         flex-direction: column;
         display: flex;
@@ -456,8 +475,8 @@ footer{
         justify-content: space-evenly;
         position: absolute;
         top: 50px;
-        height: 70vh;
-        width: 80vw;
+        height: 40vh;
+        width: 40vw;
         background-color: white;
         right: 0;
         transition: 0.8s;
@@ -465,14 +484,13 @@ footer{
         z-index: 10;
     }
 
+
     nav a{
         width: 50%;
         text-align: center;
         margin: 0 2vw;
         padding: 10px 14px;
         box-sizing: border-box;
-        color: black;
-        border-bottom: 0.5px solid black;
     }
 
     nav a:hover{
